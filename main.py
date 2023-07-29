@@ -65,7 +65,7 @@ def main():
             audio_name = os.path.splitext(audio_file)[0]
 
 
-            movie_poster = f"posters\{audio_name}.jpg"
+            movie_poster = f"posters/{audio_name}.jpg"
             st.image(movie_poster, width=200)
             st.write(f"**{audio_name}**")
             st.audio(open(os.path.join("audio_generated", audio_file), 'rb').read(), format='audio/mp3')
