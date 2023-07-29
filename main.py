@@ -24,6 +24,7 @@ from movie_info2 import plot
 from script_cohere import scripter
 from voice import voiceover
 import time
+import os
 
 def main():
     st.title("Movie AudioBook Generator")
@@ -49,6 +50,19 @@ def main():
         audio_bytes = audio_file.read()
 
         st.audio(audio_bytes, format='audio/mp3')
+    st.write()
+    audio_files = os.listdir("audio_generated")
+    st.header("Listen to some already generated movie explanations: ")
+        # Display each audio file in a loop
+    for audio_file in audio_files:
+        if audio_file.endswith(".mp3"):
+            audio_name = os.path.splitext(audio_file)[0]
+            st.write(f"**{audio_name}**")
+            st.audio(open(os.path.join("audio_generated", audio_file), 'rb').read(), format='audio/mp3')
+
+
+
+
 
 if __name__ == "__main__":
     main()
