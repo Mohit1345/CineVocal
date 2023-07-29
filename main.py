@@ -51,7 +51,7 @@ def main():
             time.sleep(0.1)
             progress_bar.progress(i + 1)
         st.success("Audio generated successfully!")
-        audio_file = open(f'audio_generated/{movie_data["Title"]}.mp3', 'rb')
+        audio_file = open(f'{movie_data["Title"]}.mp3', 'rb')
         audio_bytes = audio_file.read()
 
         st.audio(audio_bytes, format='audio/mp3')
