@@ -1,15 +1,7 @@
 
 import streamlit as st
-from movie_info import fetch_movie_data
-from movie_wiki import extract_movie_plot
-from movie_info2 import plot
-from script_cohere import scripter
-from voice import voiceover
-from poster import get_poster
-import time
+
 import os
-from dotenv import load_dotenv
-load_dotenv()
 
 def main():
     # Add a description section to explain what the website does
