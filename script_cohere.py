@@ -16,7 +16,7 @@ def scripter(Title, Year, Genre, plot):
         max_tokens=2000,  
         temperature=0.750)
     intro_paragraph = response.generations[0].text
-    print(intro_paragraph)
+    # print(intro_paragraph)
     return intro_paragraph
 # print(intro_paragraph)
 

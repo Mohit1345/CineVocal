@@ -14,7 +14,7 @@ def plot(movie_title):
     data = response.json()
 
     plot = data['Plot']
-    print(plot)
+    # print(plot)
     return plot
 
 # plot("Shutter Island")

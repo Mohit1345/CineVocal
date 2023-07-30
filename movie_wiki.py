@@ -23,13 +23,13 @@ def extract_movie_plot(movie_title):
     else:
         return None
 
-# # Example usage
-# movie_title = 'Dear Zindagi'
-# plot = extract_movie_plot(movie_title)
+# Example usage
+movie_title = 'Sairat'
+plot = extract_movie_plot(movie_title)
 
-# if plot:
-#     print(f"Plot of '{movie_title}':")
-#     print(plot)
-# else:
-#     print(f"Plot of '{movie_title}' not found on Wikipedia.")
-# # print
+if plot:
+    print(f"Plot of '{movie_title}':")
+    print(plot)
+else:
+    print(f"Plot of '{movie_title}' not found on Wikipedia.")
+# print

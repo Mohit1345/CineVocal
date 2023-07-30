@@ -10,4 +10,4 @@ def get_poster(Title):
     with open(f"posters\{Title}.jpg", "wb") as f:
         f.write(response.content)
 
-# get_poster("")
+get_poster("World War Z")

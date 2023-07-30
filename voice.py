@@ -2,7 +2,13 @@ from elevenlabs import set_api_key
 import os 
 from dotenv import load_dotenv
 load_dotenv()
+
+from elevenlabs import set_api_key
 set_api_key(os.environ['elevenlabs_api'])
+
+api_key = os.environ['elevenlabs_api']
+
+
 
 import requests
 
@@ -12,7 +18,7 @@ CHUNK_SIZE = 1024
 headers = {
   "Accept": "audio/mpeg",
   "Content-Type": "application/json",
-  "xi-api-key": os.environ['elevenlabs_api']
+  "xi-api-key": api_key
 }
 def voiceover(script,title,Genre):
     if "Horror" or "Suspence" in Genre:
@@ -30,8 +36,10 @@ def voiceover(script,title,Genre):
     }
 
     response = requests.post(url, json=data, headers=headers)
+    print(response)
     with open(f'audio_generated\{title}.mp3', 'wb') as f:
         for chunk in response.iter_content(chunk_size=CHUNK_SIZE):
+            print(chunk)
             if chunk:
                 f.write(chunk)
 
