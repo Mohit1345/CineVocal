@@ -51,6 +51,5 @@ streamlit run main.py
 [Click here to watch the CineVocal Video](https://drive.google.com/file/d/1KBnkZPgF-sIxJq54zgcwFTytncsyRkEi/view?usp=sharing)
 
 ## checkout Presentation to look into details over its use cases and diffferent aspecs
-[Click here to open the CineVocal presentation]
-(<iframe src="https://gamma.app/embed/ltbhor87qf4f9zh" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="CineVocal - Audio Summaries of Your Favorite Movies"></iframe>)
+[Click here to open the CineVocal presentation](https://gamma.app/docs/CineVocal-Audio-Summaries-of-Your-Favorite-Movies-ltbhor87qf4f9zh)
 
