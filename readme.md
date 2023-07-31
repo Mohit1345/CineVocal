@@ -6,15 +6,6 @@
 
 CineVocal is an innovative Python-based project that generates audio movie summaries, offering a delightful and convenient way to explore the world of cinema. This README provides a guide on how to set up CineVocal and use it to enjoy engaging movie insights.
 
-## Table of Contents
-
-1. [Installation](#installation)
-2. [Getting API Keys](#getting-api-keys)
-3. [Running CineVocal](#running-cinevocal)
-4. [User Interaction](#user-interaction)
-5. [Prospects and Applications](#prospects-and-applications)
-7. [Contact](#contact)
-
 ## Installation
 
 To get started with CineVocal, follow these steps:
