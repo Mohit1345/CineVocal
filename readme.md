@@ -37,6 +37,11 @@ OMDB_API_KEY=your_omdb_api_key
 streamlit run main.py
 ```
 
+5.To look all created audios in gallery formate 
+```bash
+streamlit run home.py
+```
+
 ## Video tutorial
 [Click here to watch the CineVocal Video](https://drive.google.com/file/d/1KBnkZPgF-sIxJq54zgcwFTytncsyRkEi/view?usp=sharing)
 
