@@ -38,7 +38,6 @@ streamlit run main.py
 ```
 
 ## Video tutorial
-## Embedded Video
 [Click here to watch the CineVocal Video](https://drive.google.com/file/d/1KBnkZPgF-sIxJq54zgcwFTytncsyRkEi/view?usp=sharing)
 
 ## checkout Presentation to look into details over its use cases and diffferent aspecs
